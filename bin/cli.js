@@ -4,3 +4,5 @@ import minimist from "minimist";
 
 //use minimist function to create argv variable
 const args = minimist(process.argv.slice(2))
+
+// Initialized vaiables
