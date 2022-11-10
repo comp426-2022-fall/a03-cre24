@@ -11,5 +11,7 @@ const dice = args.dice ? args.dice: 2;
 const rolls = args.rolls ? args.rolls: 1;
 
 // Use JSON Stringify
+console.log(JSON.stringify(roll(sides, dice, rolls)));
+
 // Exit out of the program
 process.exit(0);
