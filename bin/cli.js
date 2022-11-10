@@ -6,3 +6,4 @@ import minimist from "minimist";
 const args = minimist(process.argv.slice(2))
 
 // Initialized vaiables
+const sides = args.sides ? args.sides: 6;
