@@ -12,3 +12,4 @@ const rolls = args.rolls ? args.rolls: 1;
 
 // Use JSON Stringify
 // Exit out of the program
+process.exit(0);
