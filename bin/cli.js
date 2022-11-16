@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Import statements
-import {roll} from '/lib/roll.js';
+import { roll } from './lib/roll.js';
 import minimist from "minimist";
 
 //use minimist function to create argv variable
